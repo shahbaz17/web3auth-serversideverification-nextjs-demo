@@ -1,9 +1,9 @@
 name: Continuos Integration
 
 on:
-  pull_request:
+  push:
     branches:
-      - master
+      - main
 
 jobs:
   build_pull_request:
